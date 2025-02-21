@@ -4,6 +4,7 @@ import Exercicio2 from './srs/components/Exercicio2'
 
 
 
+
 const App = () => {
   return (
     <View>

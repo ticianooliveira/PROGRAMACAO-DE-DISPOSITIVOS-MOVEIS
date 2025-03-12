@@ -14,14 +14,14 @@ const CartaoPerfil = () => {
     {/* Imagem de perfil */}
 
     <Image
-        source={{ uri: 'https://github.com/biel10yt.png' }}
+        source={{ uri: 'https://github.com/ticianooliveira.png' }}
         style={styles.imagemPerfil}
     />
     
-    {/* Nome do usuário e ocupão*/}
+    {/* Nome e ocupão*/}
 
-    <Text style={styles.nome}>Gabriel Soares</Text>
-    <Text style={styles.ocupacao}>Desenvolvedor Mobile</Text>
+    <Text style={styles.nome}>Ticiano Oliveira</Text>
+    <Text style={styles.ocupacao}>Dentista e Entusiasta em Tecnologia</Text>
 
     {/* Botões de ação */}
 
@@ -32,20 +32,17 @@ const CartaoPerfil = () => {
         <Text style={styles.textoBotao}>
             {detalhesVisiveis ? 'Ver Menos': 'Ver Mais'}
         </Text>
-
     </TouchableOpacity>  
 
-    {/* Área de detalhes for true*/}  
+    {/* Área de detalhes visíveis apenas quando os detalhes visíveis for true*/}  
 
         {detalhesVisiveis &&
-        
         (<View style={styles.detalhes}>
           <Text style={styles.textoDetalhe}>Localização</Text>
           <Text style={styles.textoDetalhe}>Email</Text>
           <Text style={styles.textoDetalhe}>Hobbbies</Text>
-        </View>)
-
-        }
+        </View>
+        )}
 
             
     </View>

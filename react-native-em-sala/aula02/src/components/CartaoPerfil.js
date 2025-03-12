@@ -38,9 +38,9 @@ const CartaoPerfil = () => {
 
         {detalhesVisiveis &&
         (<View style={styles.detalhes}>
-          <Text style={styles.textoDetalhe}>Localização</Text>
-          <Text style={styles.textoDetalhe}>Email</Text>
-          <Text style={styles.textoDetalhe}>Hobbbies</Text>
+          <Text style={styles.textoDetalhe}>Localização: João Pessoa</Text>
+          <Text style={styles.textoDetalhe}>Email: ticianoodonto@gmail.com</Text>
+          <Text style={styles.textoDetalhe}>Hobbbies: Praticar esportes e assistir Filmes</Text>
         </View>
         )}
 

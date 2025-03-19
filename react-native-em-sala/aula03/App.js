@@ -1,12 +1,10 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import LoginScreen from './src/screens/LoginScreen'
+import LoginScreens from './src/screens/LoginScreens'
 
 const App = () => {
   return (
-    
-      <LoginScreen />
-    
+      <LoginScreens />
   )
 }
 

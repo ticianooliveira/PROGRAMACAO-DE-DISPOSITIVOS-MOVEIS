@@ -28,7 +28,7 @@ const LoginScreen = () => {
         onChangeText={setPassword}
        />
 
-       <Button title="Entrar" />
+       <Button title="Entrar" onPress={() => navigator.replace('Main')}/>
 
        <Text style={styles.orText}>Ou entre com</Text>
 

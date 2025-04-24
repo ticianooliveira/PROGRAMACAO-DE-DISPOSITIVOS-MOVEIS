@@ -6,25 +6,25 @@ Este projeto se trata da criação de um aplicativo mobile desenvolvido como mat
 
 🚀 Funcionalidades/ Telas.
 
-Login Screen: Tela de autenticação com campos de nome de usuário e senha, além de opções para login via Google e GitHub.
+- Login Screen: Tela de autenticação com campos de nome de usuário e senha, além de opções para login via Google e GitHub.
 
-Home Screen: Exibição de uma lista de cursos disponíveis com nome e descrição.
+- Home Screen: Exibição de uma lista de cursos disponíveis com nome e descrição.
 
-Details Screen: Visualização dos detalhes completos de um curso selecionado.
+- Details Screen: Visualização dos detalhes completos de um curso selecionado.
 
-Profile Screen: Tela de perfil do usuário com informações pessoais e opção para logout.
+- Profile Screen: Tela de perfil do usuário com informações pessoais e opção para logout.
 
 🛠️ Tecnologias utilizadas.
 
-React Native
+- React Native
 
-Expo
+- Expo
 
-Navegação com React Navigation
+- Navegação com React Navigation
 
-Firebase
+- Firebase
 
-Ícones com @expo/vector-icons
+- Ícones com @expo/vector-icons
 
 
 

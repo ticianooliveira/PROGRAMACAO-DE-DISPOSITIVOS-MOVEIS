@@ -22,6 +22,8 @@ Expo
 
 Navegação com React Navigation
 
+Firebase
+
 Ícones com @expo/vector-icons
 
 

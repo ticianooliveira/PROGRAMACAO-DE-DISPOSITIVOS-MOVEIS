@@ -4,8 +4,8 @@ import { Ionicons } from '@expo/vector-icons'
 import React from 'react'
 import HomeScreen from '../screens/HomeScreen'
 import DetailsScreen from '../screens/DetailsScreen'
+import LoginScreen from '../screens/LoginScreen'
 import ProfileScreen from '../screens/ProfileScreen'
-import LoginScreen from '../screens/LoginScreens'
 
 const Stack = createNativeStackNavigator()
 const Tab = createBottomTabNavigator()

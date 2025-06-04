@@ -1,18 +1,24 @@
-import { View, Text, Button, Image } from 'react-native'
+import { View, Text, Button } from 'react-native'
 import React from 'react'
+import { useContext } from 'react'
+import { AuthContext } from '../context/AuthContext'
 
 const ProfileScreen = ({ navigation }) => {
+
+  const { user, logout } = useContext(AuthContext)
+
+  const handleLogout = async () => {
+    await logout()
+    navigation.replace('Login')
+  }
+
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Image
-        source={{ uri: 'https://github.com/ticianooliveira.png' }}
-        style={{ width: 120, height: 120, borderRadius: 60, marginBottom: 20 }}
-      />
-      <Text style={{ fontSize: 30, fontWeight: 'bold', marginBottom: 10 }}>👤 Ticiano</Text>
-      <Text style={{ marginBottom: 30, fontSize: 15, fontWeight: 'bold' }}>Email: ticianoodonto@gmail.com</Text>
-      <Button title="Sair" onPress={() => navigation.replace('Login')} />
+      <Text style={{ fontSize: 20, fontWeight: 'bold', marginBottom: 10 }}>👤 Meu Perfil</Text>
+      <Text>Email: {user?.email}</Text>
+      <Button title="Sair" onPress={handleLogout} />
     </View>
   )
 }
 
-export default ProfileScreen 
+export default ProfileScreen
